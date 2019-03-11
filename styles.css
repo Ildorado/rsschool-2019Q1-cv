@@ -343,7 +343,7 @@ textarea {
     margin-left: 20px;
 }
 
-.interactions p {
+.interactions > p {
     color: #bebebe;
     font-size: 10pt;
     line-height: 1.6;
@@ -369,6 +369,7 @@ textarea {
 .interactive-lines {
     color: #a8a8a8;
     display: flex;
+    padding-bottom: 5px;
 }
 
 .interactive-lines a {
@@ -376,8 +377,9 @@ textarea {
     align-items: center;
     text-decoration: none;
     color: #a8a8a8;
-    font-size: 10pt;
-    margin-bottom: 7px;
+}
+.interactive-lines p {
+    font-size: 8pt;
 }
 
 .material-icons {
