@@ -1,10 +1,12 @@
-html *  {
+html * {
     font-family: 'Nanum Gothic', sans-serif;
 }
-body{
+
+body {
     width: 1024px;
     margin: 0 auto;
 }
+
 main {
     margin-top: -25px;
     font-size: 12pt;
@@ -12,16 +14,15 @@ main {
 
 .hexagon-1 {
     position: relative;
-    width: 182px; 
+    width: 182px;
     height: 105.08px;
     /*margin: 52.54px 0; */
     /* background-image: url('Layer 33@1X.png'); */
     background-size: auto 210.1555px;
     background-position: center;
-  }
-  
-  .hexTop,
-  .hexBottom {
+}
+
+.hexTop, .hexBottom {
     position: absolute;
     z-index: 1;
     width: 128.69px;
@@ -32,41 +33,41 @@ main {
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
     left: 26.65px;
-  }
-  
-  /*counter transform the bg image on the caps*/
-  .hexTop:after,
-  .hexBottom:after {
+}
+
+/*counter transform the bg image on the caps*/
+
+.hexTop:after, .hexBottom:after {
     content: "";
     position: absolute;
     width: 182.0000px;
     height: 105.0777489925119px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-52.5389px);
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
     background: inherit;
-  }
-  
-  .hexTop {
+}
+
+.hexTop {
     top: -64.3467px;
-  }
-  
-  .hexTop:after {
+}
+
+.hexTop:after {
     background-position: center top;
-  }
-  
-  .hexBottom {
+}
+
+.hexBottom {
     bottom: -64.3467px;
-  }
-  
-  .hexBottom:after {
+}
+
+.hexBottom:after {
     background-position: center bottom;
-  }
-  
-  .hexagon-1:after {
+}
+
+.hexagon-1:after {
     content: "";
     position: absolute;
     top: 0.0000px;
@@ -75,21 +76,24 @@ main {
     height: 105.0777px;
     z-index: 2;
     background: inherit;
-  }
-  .hex-wrap {
+}
+
+.hex-wrap {
     margin-left: 9px;
     margin-right: 10px;
     margin-top: 31px;
     margin-bottom: 34px;
-  }
-  .hex-wrap:first-child {
-      padding-left:19px;
+}
+
+.hex-border-left {
+    padding-left: 19px;
     border-left: 1px solid #e4e9eb;
-  }
-  .hex-wrap:last-child {
-      padding-right:19px;
+}
+
+.hex-border-right {
+    padding-right: 19px;
     border-right: 1px solid #e4e9eb;
-  }
+}
 
 header {
     background-color: #323232;
@@ -122,9 +126,9 @@ header:after {
     display: inline-block;
     margin-bottom: 0.25rem;
 }
-.dot-li {
-    width:2px;
 
+.dot-li {
+    width: 2px;
 }
 
 .nav {
@@ -345,7 +349,7 @@ textarea {
     margin-left: 20px;
 }
 
-.interactions > p {
+.interactions>p {
     color: #bebebe;
     font-size: 10pt;
     line-height: 1.6;
@@ -380,6 +384,7 @@ textarea {
     text-decoration: none;
     color: #a8a8a8;
 }
+
 .interactive-lines p {
     font-size: 8pt;
 }
