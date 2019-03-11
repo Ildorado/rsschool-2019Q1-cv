@@ -285,10 +285,9 @@ footer {
     flex-direction: column;
     padding-left: 90px;
     padding-right: 120px;
-    width: 100%;
     margin: 13px 30px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
 }
 
 .getInTouch-section h1 {
