@@ -1,3 +1,7 @@
+html *  {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 main {
     margin-top: -25px;
     font-size: 12pt;
