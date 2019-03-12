@@ -107,15 +107,28 @@ header:after {
     width: 0;
     height: 0;
     z-index: 2;
-    background-color: #ffffff;
+    background-color: transparent;
     border-left: 47px solid transparent;
     border-right: 47px solid transparent;
     border-top: 25px solid #323232;
     position: absolute;
     left: 50%;
     bottom: 0%;
-    top: 63px;
+    top: 62px;
     transform: translateX(-50%);
+}
+
+header:before {
+    content: "";
+    height: 20px;
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    top: 70px;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    z-index: 2;
 }
 
 .dot {
